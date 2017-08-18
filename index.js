@@ -7,3 +7,12 @@ function theBeatlesPlay(array1, array2) {
   }
   return strings;
 }
+
+function johnLennonFacts(array) {
+  var newArray = []; 
+  while (array.length > 0) {
+    newArray.push('' + array[0] + '!!!');
+    array.shift();
+  }
+  return newArray;
+}
